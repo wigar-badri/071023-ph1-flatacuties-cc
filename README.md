@@ -164,3 +164,18 @@ deliverables!**
       "votes": 0
     }
     ```
+
+## Submission
+
+To submit the code challenge first run this command in your terminal:
+
+```bash
+python3 end.py
+```
+
+This will ask for your name. Once you've typed your name and pressed enter the
+code challenge will prepare a final commit and create a `.bundle` file which is
+what you'll submit to Canvas.
+
+Go to the page for the code challenge and click "Start Assignment" and follow
+the instructions to submit your newly created `.bundle` file.
