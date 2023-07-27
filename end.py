@@ -8,7 +8,7 @@ if __name__ == "__main__":
     if name and len(name) > 2:
         try:
             os.system("git add . && git commit --allow-empty -m \"Final commit\"")
-            os.system(f"git bundle create ../{name}-ph1-flatacuties.bundle HEAD #{name}")
+            os.system(f"git bundle create ./{name}-ph1-flatacuties.bundle HEAD #{name}")
             print("\nBundling complete, submit on Canvas")
         except Exception as e:
             print("There was an error:")
